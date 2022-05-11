@@ -1,0 +1,36 @@
+If(5<10)Then
+  TextWindow.WriteLine("five is less than 10.")
+EndIf
+TextWindow.WriteLine("how old are you?")
+age = TextWindow.Read()
+If age > 20 Then
+  TextWindow.WriteLine("you are an old fogie!")
+Endif
+start:
+TextWindow.Write("are you a vegan?: ")
+vegan = TextWindow.Read()
+If vegan = "yes" Then
+  TextWindow.WriteLine("i know, you've told me already. Several times...")
+ElseIf vegan = "no" Then
+  TextWindow.WriteLine("looks like meat is back on the menu!")
+Else
+  TextWindow.WriteLine("Please enter Yes or No.")
+  Goto start
+EndIf
+If(Clock.Hour < 12) Then
+  TextWindow.WriteLine("it is a.m.")
+ElseIf(Clock.Hour >=12) Then
+  TextWindow.WriteLine("it is p.m.")
+EndIf
+TextWindow.Write("type a number that includes a decimal: ")
+number = TextWindow.ReadNumber()
+TextWindow.Write("now we will round your number! ...")
+TextWindow.Write("your rounded number is: " + Math.Round(number) + ".")
+remainder = Math.Remainder(Math.Round(number),2)
+If(remainder = 0) Then
+  TextWindow.WriteLine("this number is even!")
+Else
+  TextWindow.WriteLine("this is and odd number!")
+EndIf
+
+  

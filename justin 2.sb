@@ -1,0 +1,35 @@
+Program.Delay(1000)
+
+
+TextWindow.WriteLine("what killed the dinosaurs?")
+answer = TextWindow.Read()
+If answer = "asteriod" Or answer = "Asteriod" Then
+  TextWindow.WriteLine("well done, you are correct!")
+Else 
+  TextWindow.WriteLine("sorry you are wrong!")
+EndIf
+
+
+TextWindow.WriteLine("do you want to go for a walk?")
+goforawalk = TextWindow.Read()
+If goforawalk = "yes" Then
+  TextWindow.WriteLine("that's fantastic!")
+  ElseIf goforawalk = "no" then
+  TextWindow.WriteLine("that's too bad!")
+  Else
+  TextWindow.WriteLine("you must give a yes or no answer!")
+EndIf
+
+TextWindow.Write("what is Pi in 5 decimal place?:")
+number = TextWindow.Read()
+TextWindow.Write("Lets make it a whole number! ...")
+TextWindow.Write("your rounded number is: " + Math.Round(number) + ".")
+Remainder = Math.Remainder(Math.Round(number),2)
+If(Remainder = 0) Then
+  TextWindow.WriteLine("this number is even!")
+Else
+  TextWindow.WriteLine("this is an odd number!")
+EndIf
+
+TextWindow.WriteLine("The ceiling of 3.1415 is: " + Math.Ceiling(3.1415))
+
