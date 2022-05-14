@@ -1,0 +1,18 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Mr Green's Smelly Fish Emporium</title>
+	<link rel="stylesheet" type="text/css" href="Basic_CSS_1.css">
+	</head>
+	
+	<body>
+		<div id="top"</div>
+		<img src="https://www.shutterstock.com/search/rotten+fish" alt="Mr Green's Fish Emporium">
+		<h1>welcome to the smelly fish shop</h1>
+		<style>
+		
+		</style>
+		<p>we sell the smelliest fish on the planet</p>
+	</body>
+	
+</html>
