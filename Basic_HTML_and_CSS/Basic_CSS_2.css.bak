@@ -1,0 +1,13 @@
+p {
+	color: snow;
+	background: black;
+	font-weight: bold;
+	text-align: center;
+}
+	<style>
+	h1{
+		padding: 2rem;
+		text-shadow: 5px px blue
+	}
+	</style>
+	<h1>CSS text-shadow</h1>

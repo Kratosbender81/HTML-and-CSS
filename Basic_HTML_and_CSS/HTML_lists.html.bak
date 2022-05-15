@@ -1,3 +1,15 @@
 <ol>
+	<link rel="stylesheet" type="text/css" href="Basic_Lists.css">
 	<li>bread</li>
+	<li>eggs</li>
+	<li>milk</li>
+	<li>cheese</li>
 </ol>
+
+<ul>
+	<link rel="stylesheet" type="type/css" href="Basic_Lists.css">
+	<li>dogs</li>
+	<li>cats</li>
+	<li>birds</li>
+	<li>snakes</li>
+<ul>

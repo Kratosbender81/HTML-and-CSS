@@ -3,10 +3,8 @@
 	<body>
 	<p> &lt; </p>
 	<style>
-		h1{
-			padding: 2rem;
-	text-shadow: 5px 5px blue;
-	}
+		
+
 	</style>
 		<link rel = "stylesheet" type = "text/css" href = "Basic_CSS_2.css">
 		<p>styled font.</P>
